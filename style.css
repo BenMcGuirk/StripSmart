@@ -52,27 +52,45 @@ header nav p a{
     }
 
     #div1, #div2{
-        height: 350px;
+        height: 500px;
     }
 
     body{
         margin: 0;
     }
 
+    .largerFontMobile{
+        font-size: 25px;
+    }
+
+    header{
+        height: 300px;
+    }
 }
 
 @media only screen and (max-width: 500px){
     html{
         min-width: fit-content;
     }
+
+    .logo{
+        height: 250px;
+        width: 400px;
+    }
+
+    header nav {
+        margin: 0;
+    }
 }
 
 
 
 .logo{
-    height: 160px;
-    width: 200px;
+    position: relative;
+    height: 250px;
+    width: 300px;
     padding: 0;
+    right: 5px;
 }
 
 video{
@@ -90,7 +108,6 @@ div {
 
 #div1 {
     flex-direction: column;
-    justify-content: space-around;
     /*border-bottom: solid 1px black;
     border-top: solid 1px black; */
 }
